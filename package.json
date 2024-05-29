@@ -1,0 +1,19 @@
+{
+  "name": "new-node-app",
+  "version": "1.0.0",
+  "description": "CLI tool to create a new Node.js project",
+  "main": "bin/new-node-app.js",
+  "bin": {
+    "new-node-app": "./bin/new-node-app.js"
+  },
+  "scripts": {
+    "start": "node bin/new-node-app.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "fs-extra": "^10.0.0"
+  },
+  "author": "Lokesh Sharma",
+  "license": "MIT"
+}
